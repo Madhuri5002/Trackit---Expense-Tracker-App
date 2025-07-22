@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Montserrat&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #A38426 #CBD4D7;
+}
+
+/* Scrollbar styling for Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: #CBD4D7;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #D5DEE0;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #A38426;
+}
+
+*::-webkit-scrollbar-thumb:hover,
+*::-webkit-scrollbar-thumb:active {
+  background-color: #DFCD42;
+}
+
+/* Font utility classes */
+.font-bold {
+  font-weight: 300;
+}
+
+.font-mont {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-handjet {
+  font-family: 'Handjet', cursive;
+}
+
+/* Date input styling */
+input[type="date"] {
+  background-color: white;
+  padding: 15px;
+  height: 45px;
+  font-family: "Roboto Mono", monospace;
+  color: black;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+
+/* Date picker icon */
+::-webkit-calendar-picker-indicator {
+  background-color: blue;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* Remove number input arrows in Chrome */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+
+/* Custom Tailwind components */
+@layer components {
+  .focus-animation {
+    @apply focus:outline-dashed focus:outline-2 transition-all focus:outline-offset-4 focus:outline-white;
+  }
+}
+
+/* Responsive styles */
+@media (max-width: 1085px) {
+  .smr {
+    @apply grid grid-flow-row gap-2 justify-center;
+  }
+
+  .category {
+    @apply bg-white text-black w-fit p-0.5 pl-2 pr-2;
+  }
+}
+
+@media (max-width: 940px) {
+  .listrr {
+    @apply grid-cols-1;
+  }
+
+  .flexing {
+    @apply flex-col;
+  }
+}
