@@ -1,41 +1,46 @@
-# Expense-Tracker-Mern
-A fully-featured Expense-Tracker WebApp , built with the MERN stack.
+# Trackit – Expense Tracker App
+
+##  About the Project
+
+Trackit was built to help users maintain better control over their finances. With simplicity, performance, and elegance at its core, this app showcases modern full-stack development practices using the MERN stack.
+
+##  Overview
+
+Trackit allows users to:
+- Add, view, and delete expense entries.
+- Monitor their spending habits.
+- Keep a record of all financial transactions with date and description.
+- Experience a smooth, visually appealing UI with responsive design.
 
 
-### Backend 
-<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" /> 
-### Front-end
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-### Database 
-<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
+## 🛠️ Technologies Used
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/960fe4d9-fc14-49af-abcd-82cd94587293/deploy-status?branch=dev)](https://app.netlify.com/sites/track-yur-expense/deploys)
+### 🔹 Frontend:
+- React.js
+- Tailwind CSS
+- Framer Motion (for animations)
 
-### Installation
-1) Clone this repository  
-```
-git clone https://github.com/ihtasham42/social-media-app.git
-```
-2) Install dependencies  
-```
-cd Expense-Tracker_Mern  
-cd frontend
-npm install
-cd..
-cd client
-npm install
-```
-3) Configure environment variables in your new .env file. To acquire your MONGO_URI, create a cluster for free over at https://www.mongodb.com/.
-```
-MONGO_URI=<YOUR_MONGO_URI> 
-```
-4) Run the server
-```
-npm run server
-```
-5) Start a new terminal and run react's development server
-```
-cd social-media-app
-cd frontend
-npm start
-```
+### 🔹 Backend:
+- Node.js
+- Express.js
+
+### 🔹 Database:
+- MongoDB
+- Mongoose
+
+##  Screenshots
+
+### Login Pge/ Landing Page
+<img width="1915" height="977" alt="image" src="https://github.com/user-attachments/assets/10ecba9a-66e7-45b5-a2fa-3087fa217b9c" />
+
+### Registration Page
+<img width="1915" height="1021" alt="image" src="https://github.com/user-attachments/assets/1120f7a8-d2a4-4530-9b29-3af9fd354417" />
+
+### Home Page
+<img width="1919" height="1013" alt="image" src="https://github.com/user-attachments/assets/ba75f97e-71e3-46ad-814e-7ff04107517d" />
+
+<img width="1919" height="1010" alt="image" src="https://github.com/user-attachments/assets/80790558-ae91-452a-beee-4684ddaa162f" />
+
+
+
+
